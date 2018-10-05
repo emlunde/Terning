@@ -8,19 +8,45 @@ class DiceTest {
 
     @Test
     void testRoll(){
+        // Arrange
+
         Dice dice = new Dice();
 
         int count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0, count6 = 0;
 
-
+        //Act
 
 
         for(int i = 0; i < 60000; i++){
             int num = dice.roll();
-
             assertTrue(num>0 && num < 7);
 
+            switch (num){
+                case 1:
+                    count1++;
+                    break;
+                case 2:
+                    count2++;
+                    break;
+                case 3:
+                    count3++;
+                    break;
+                case 4:
+                    count4++;
+                    break;
+                case 5:
+                    count5++;
+                    break;
+                case 6:
+                    count6++;
+                    break;
+            }
+
+
         }
+
+       // Assert
+
 
     }
 
