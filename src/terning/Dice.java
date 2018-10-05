@@ -16,4 +16,5 @@ public class Dice {
 		}		
 	}
 	//Simon was here
+	//KNA test
 }
