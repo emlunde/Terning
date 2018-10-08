@@ -15,6 +15,4 @@ public class Dice {
 			System.out.print(roll() + " ");
 		}		
 	}
-	//Simon was here
-	//KNA test
 }
