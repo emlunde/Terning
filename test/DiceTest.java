@@ -10,7 +10,7 @@ class DiceTest {
     void testRoll(){
         // Arrange
         Dice dice = new Dice();
-
+//LOL Simon was here
         int count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0, count6 = 0;
 
         //Act
